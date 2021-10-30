@@ -1,13 +1,9 @@
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;}
-    /* .main{
-        width: 100%;
-        height: 100%;
+    body{
+        min-height:100vh; display:flex; flex-direction:column; justify-content:space-between;
     }
-    body{width: 100%;
-    height: auto;} */
-/* 1 */
     
     .navbar{
         width: 100%;
@@ -69,13 +65,13 @@
     }
     /* 3 */
     .mainfield{
-        width: 100%;
-        height:40rem;
         display: flex;
         justify-content:space-around ;
+        align-items: center;
+        font-size: 0.5rem;
         
     }
-.mainfield-1_1{width: 70%;
+.mainfield-1_1{
 margin:3rem;
 }
 .p1{font-weight: bold;
@@ -84,15 +80,13 @@ font-size: 2rem;}
 
 .mainfield-1_2{background-color: #35424A;
 color: white;
-width: 70%;
 margin: 3rem;
 padding:0.5rem;
 border-radius: 1rem;}
 
 .mainfield-2{border: 1px solid;
-    height:20% ;
-    width:100%;
     margin: 3rem;
+    margin-bottom: 8rem;
     background-color: #35424A;
     padding: 0.8rem;
     border-radius: 1rem;
@@ -134,34 +128,24 @@ font-size: 1.3rem;}
     
     @media screen  and   (max-width:1200px){
         .navbar{
-        width: 100%;
-        height: 6rem;
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between;
-        background-color:#35424A;
-        align-items: center;
-        border-bottom: 0.3rem solid purple;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
     
-    
+        }
         
-    }
-    .navbar-link{
-        align-content: center;
-        justify-content:space-around;
-        margin:1rem}
-    }
-    
-    .navbar-h2{
-        margin-top: 0.5rem;
-    }
+        
+        .navbar-link{
+            align-content: center;
+            justify-content:space-around;
+            margin:1rem}
+        }
+        
+        .navbar-h2{
+            margin-top: 0.5rem;
+        }
 
 
-    .mainfield{
-        width: 100%;
-        height:40rem;
-        display: flex;
-        justify-content:space-around ;
-        overflow:auto;
-    }
-   
+        
